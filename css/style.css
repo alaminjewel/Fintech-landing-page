@@ -283,6 +283,11 @@ header nav .primary-nav .nav-link a:hover, header nav .primary-nav .nav-link a:a
   grid-template-columns: repeat(12, 1fr);
   grid-auto-rows: 1fr;
 }
+@media (max-width: 325px) {
+  .service-section .grid {
+    gap: 1rem;
+  }
+}
 .service-section .grid .service {
   grid-column: span 4;
   display: flex;
@@ -340,6 +345,11 @@ header nav .primary-nav .nav-link a:hover, header nav .primary-nav .nav-link a:a
   gap: 1.75rem;
   grid-template-columns: repeat(12, 1fr);
   grid-auto-rows: 1fr;
+}
+@media (max-width: 325px) {
+  .project-section .grid {
+    gap: 1rem;
+  }
 }
 .project-section .grid .element-item {
   /*grid property*/
